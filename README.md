@@ -1,1 +1,1 @@
-# growfy
+# Growfy
