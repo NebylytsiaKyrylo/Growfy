@@ -196,10 +196,11 @@ a {
   margin-bottom: 28px;
 }
 .header-main__actions {
+  display: flex;
+  column-gap: 32px;
 }
 .header-main__button {
 }
-.button__dark {
   background: rgba(129, 129, 139, 0.2);
 }
 .button__dark:hover {
