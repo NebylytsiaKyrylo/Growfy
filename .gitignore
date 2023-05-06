@@ -1,0 +1,5 @@
+# ignore local history
+.history
+
+# ignore jshint
+.jshintrc.js

@@ -515,7 +515,6 @@ a {
   align-self: center;
 }
 .services__content-label {
-
 }
 .services__title {
 }
@@ -552,5 +551,5 @@ a {
   margin-bottom: 10px;
 }
 .services__item-text {
-  line-height: 1.50; /* 24/16 */
+  line-height: 1.5; /* 24/16 */
 }
