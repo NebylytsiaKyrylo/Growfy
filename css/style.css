@@ -375,16 +375,12 @@ a {
 
 @media (max-width: 767.98px) {
   .header-main__actions {
-    gap: 15px;
+    gap: 20px;
   }
 
   .header-main__title {
     font-size: var(--font-size-title-mobile);
     line-height: 1.1;
-  }
-
-  .header-main__title:not(:last-child) {
-    margin-bottom: 15px;
   }
 
   .header-main__text {
@@ -437,14 +433,6 @@ a {
 
   .main__container {
     flex-direction: column;
-  }
-
-  .main__images {
-    margin-top: 15px;
-  }
-
-  .header-main__text:not(:last-child) {
-    margin-bottom: 15px;
   }
 
   .header-main__button {
@@ -536,6 +524,13 @@ a {
   flex: 0 1 50%;
   align-self: center;
 }
+
+@media (max-width: 991.98px) {
+  .services__content{
+    text-align: center;
+  }
+}
+
 .services__content-label {
   display: inline-block;
   border: 1px solid rgba(129, 129, 139, 0.2);
@@ -572,23 +567,77 @@ a {
   display: flex;
   gap: 32px;
 }
+
+@media (max-width: 767.98px) {
+  .services__items {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
 .services__items-column {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
+
+
+@media (max-width: 767.98px) {
+  .services__items-column {
+    gap: 20px;
+  }
+}
+
+
 .services__items-column:first-child {
   padding-top: 48px;
 }
+
+@media (max-width: 991.98px) {
+  .services__items-column:first-child {
+    padding-top: 0;
+  }
+}
+
 .services__item {
   background: rgba(129, 129, 139, 0.1);
   border-radius: 30px;
   padding: 55px 25px;
   min-width: 280px;
 }
+
+@media (max-width: 767.97px) {
+  .services__item {
+    display: flex;
+    gap: 20px;
+    padding: 25px 25px;
+    align-items: center;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 479px) {
+  .services__item {
+    display: block;
+  }
+}
+
 .services__item-image img {
   padding-bottom: 18px;
 }
+
+@media (max-width: 767.97px) {
+  .services__item-image img {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 479px) {
+  .services__item-image img {
+    padding-bottom: 18px;
+  }
+}
+
 .services__item-title {
   font-size: 19.2px;
   font-weight: 400;
@@ -605,9 +654,10 @@ a {
   }
 
   .services__container {
-    display: flex;
-    padding-top: 100px;
-    padding-bottom: 60px;
     gap: 50px;
   }
+}
+
+.services__item-text-content {
+
 }
